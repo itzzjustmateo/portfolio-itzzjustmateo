@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ ItzzMateo's Portfolio
 
-## Getting Started
+This repository contains the complete portfolio of **ItzzMateo**, showcasing development work, UI experiments, and larger projects!
 
-First, run the development server:
+The portfolio demonstrates experience with modern frameworks, component systems, and clean UI architecture.
+
+---
+
+## 📦 Technologies
+
+Technologies commonly used across the projects featured in the portfolio:
+
+* React
+* Next.js
+* ShadCN/UI
+* TailwindCSS
+* Additional modern dev tools
+
+---
+
+## 🦄 Portfolio Highlights
+
+Inside the portfolio you can explore:
+
+* Projects showcase
+* Visual previews and descriptions
+* Smooth UI/UX interactions
+
+### 🎯 Keyboard Shortcuts
+
+`Ctrl + K` — Global search palette (Coming soon)
+
+---
+
+## 🔄 Version Control (For This Portfolio)
+
+The portfolio itself follows a simple, readable versioning system inspired by project‑scale semantic versioning:
+
+### Version Format
+
+`MAJOR.MINOR.PATCH.ADDITIONAL`
+
+### Definition
+
+**PREFIX** — Optional version prefix indicating the stage of the release, e.g., `ALPHA`, `BETA`.
+
+**MAJOR** — Significant redesign, rearchitecture, or large new systems added.
+
+**MINOR** — New features, UI components, or enhancements to existing systems.
+
+**PATCH** — Bug fixes, style tweaks, text adjustments, and small improvements.
+
+**ADDITIONAL** — Slight changes, github changes, and some more small changes.
+
+### Examples
+
+* `1.0.0` — First full portfolio release
+* `1.1.0` — New project cards + improved layout
+* `1.1.3` — Fix spacing, adjust text, correct typos
+* `ALPHA 1.1.3.1` — Fix misspelling in README
+
+Current planned future versions will be documented here.
+
+---
+
+## 💭 Future Improvements
+
+* Theme selector & theme builder
+* Rewritten project descriptions for clarity
+* Optional animations and timeline views
+* Project filtering & categorization
+
+---
+
+## 🚦 Running the Portfolio Locally
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/itzzjustmateo/portfolio-itzzjustmateo.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Start development server:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open the URL shown (usually `http://localhost:3000`)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🍿 Video
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A full showcase video is currently in production.
