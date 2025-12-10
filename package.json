@@ -1,7 +1,16 @@
 {
-  "name": "test-repo",
-  "version": "ALPHA-1.0.1.1",
-  "private": true,
+  "name": "portfolio-itzzjustmateo",
+  "version": "ALPHA-1.0.1.2",
+  "private": false,
+  "author": {
+    "name": "ItzzJustMateo",
+    "email": "devflaremain@gmail.com",
+    "url": "itzzmateo.vercel.app"
+  },
+  "bugs": {
+    "url": "https://github.com/itzzjustmateo/portfolio-itzzjustmateo/issues",
+    "email": "devflaremain@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
