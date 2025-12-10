@@ -1,14 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter as FontSans } from "next/font/google";
+import { Zalando_Sans as FontSerif } from "next/font/google";
+import { JetBrains_Mono as FontMono } from "next/font/google";
 import "./globals.css";
+import { Sidebar } from "@/components/ui/sidebar";
+import Navbar from "@/components/ui/navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fontSans = FontSans({
+  variable: "--font-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const fontSerif = FontSerif({
+  variable: "--font-serif",
+  subsets: ["latin"],
+});
+
+const fontMono = FontMono({
+  variable: "--font-mono",
   subsets: ["latin"],
 });
 
@@ -25,8 +34,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${fontSans.variable} ${fontSerif.variable} ${fontMono.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
