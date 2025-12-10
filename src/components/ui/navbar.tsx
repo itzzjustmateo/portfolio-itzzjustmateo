@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Menu, X, Home, Layers, Info, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import { ModeToggle } from './theme-toggle';
 
 const navLinks = [
   { label: 'Home', href: '/', icon: Home },
@@ -47,6 +48,7 @@ export default function Navbar() {
               );
             })}
           </TooltipProvider>
+          {/* <ModeToggle /> */}
         </div>
 
         {/* Mobile Hamburger */}
@@ -78,6 +80,7 @@ export default function Navbar() {
               </Link>
             );
           })}
+          {/* <ModeToggle /> */}
         </div>
       )}
     </nav>
